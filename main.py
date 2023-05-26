@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score
 
 """
 I = 12, gives acc 86 with our function
-I = 9, gives acc 86 with built-in function
+I = 9, gives acc 90 with built-in function
 """
 # Ours
 # x_train, x_test, y_train, y_test = test_train_split(
