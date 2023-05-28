@@ -5,6 +5,7 @@ class PCA:
         self.n_components = n_components
 
     def fit(self, X):
+        # Get the mean value to make the data centered
         mean = np.mean(X, axis=0)
         X = X - mean
 
